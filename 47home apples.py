@@ -1,0 +1,5 @@
+s, t = map(int, input().split())
+a, b = map(int, input().split())
+_ = input()
+print(sum(s <= (a + i) <= t for i in map(int, input().split())))
+print(sum(s <= (b + i) <= t for i in map(int, input().split())))
